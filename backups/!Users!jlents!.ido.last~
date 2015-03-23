@@ -1,0 +1,270 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/jlents/projects/a2t-clj/src/a2t_clj/" . "etl/")
+ ("/Users/jlents/projects/a2t-clj/src/" . "a2t_clj/")
+ ("/Users/jlents/projects/a2t-clj/" . "src/")
+ ("/Users/jlents/projects/expenses-clj/src/" . "expenses_clj/")
+ ("/Users/jlents/projects/expenses-clj/" . "dev/")
+ ("/Users/jlents/projects/hello-ring/" . "src/")
+ ("/Users/jlents/projects/hello-compojure/resources/" . "public/")
+ ("/Users/jlents/projects/hello-compojure/src/hello_compojure/" . "core/")
+ ("/Users/jlents/projects/hello-compojure/src/" . "hello_compojure/")
+ ("/Users/jlents/projects/hello-compojure/" . "src/")
+ ("/Users/jlents/projects/hello-ring/src/" . "hello_ring/")
+ ("/Users/jlents/projects/pedestal-stuff/tutorial-client/app/src/" . "tutorial_client/")
+ ("/Users/jlents/projects/pedestal-stuff/tutorial-client/app/" . "src/")
+ ("/Users/jlents/projects/pedestal-stuff/" . "tutorial-client/")
+ ("/Users/jlents/projects/pedestal-testing-projects/test-ped-service/" . "src/")
+ ("/Users/jlents/projects/pedestal-testing-projects/test-ped-service/src/" . "test_ped_service/")
+ ("/Users/jlents/projects/pedestal-testing-projects/todoit/src/" . "todoit/")
+ ("/Users/jlents/projects/pedestal-testing-projects/" . "test-ped-service/")
+ ("/Users/jlents/projects/aicig-notional/" . "dev/")
+ ("/Users/jlents/projects/test-clojure/src/" . "test_clojure/")
+ ("/Users/jlents/projects/test-clojure/" . "src/")
+ ("/Users/jlents/projects/aicig-etl/src/" . "aicig_etl/")
+ ("/Users/jlents/projects/aicig-etl/" . "src/")
+ ("/Users/jlents/projects/football/src/" . "football/")
+ ("/Users/jlents/projects/football/" . "dev/")
+ ("/Users/jlents/projects/paychecks/" . "src/")
+ ("/Users/jlents/projects/paychecks/src/" . "paychecks/")
+ ("/Users/jlents/projects/fantasy-football/src/" . "fantasy_football/")
+ ("/Users/jlents/projects/fantasy-football/" . "src/")
+ ("/Users/jlents/projects/acme/" . "src/")
+ ("/Users/jlents/projects/acme/src/" . "acme/")
+ ("/Users/jlents/" . ".emacs.d/")
+ ("/Users/" . "jlents/")
+ ("/" . "etc/")
+ ("/Users/jlents/projects/practice/command-line-arg/test/" . "command_line_arg/")
+ ("/Users/jlents/projects/practice/command-line-arg/" . "src/")
+ ("/Users/jlents/projects/practice/" . "command-line-arg/")
+ ("/Users/jlents/projects/practice/command-line-arg/src/" . "command_line_arg/")
+ ("/Users/jlents/projects/" . "a2t-clj/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/jlents/projects/a2t-clj/"
+ "/Users/jlents/.emacs.d/"
+ "/Users/jlents/projects/test-clojure/"
+ "/Users/jlents/projects/a2t-clj/src/a2t_clj/"
+ "/Users/jlents/"
+ "/Users/jlents/.lein/"
+ "/Users/jlents/projects/a2t-clj/src/a2t_clj/etl/"
+ "/Users/jlents/emacs.bak/"
+ "/Users/jlents/projects/expenses-clj/src/expenses_clj/"
+ "/Users/jlents/projects/expenses-clj/dev/"
+ "/Users/jlents/projects/hello-compojure/src/hello_compojure/core/"
+ "/Users/jlents/projects/expenses-clj/src/expenses_clj/core/"
+ "/Users/jlents/projects/expenses-clj/"
+ "/Users/jlents/projects/hello-compojure/"
+ "/Users/jlents/projects/hello-compojure/src/hello_compojure/"
+ "/Users/jlents/projects/hello-ring/src/hello_ring/"
+ "/Users/jlents/projects/hello-compojure/dev/"
+ "/Users/jlents/projects/hello-compojure/resources/public/"
+ "/Users/jlents/projects/myblog/"
+ "/Users/jlents/projects/hello-ring/"
+ "/Users/jlents/projects/pedestal-stuff/tutorial-client/app/src/tutorial_client/"
+ "/Users/jlents/projects/pedestal-stuff/tutorial-client/"
+ "/Users/jlents/projects/pedestal-testing-projects/test-ped-service/src/test_ped_service/"
+ "/Users/jlents/projects/pedestal-testing-projects/test-ped-service/"
+ "/Users/jlents/projects/pedestal-testing-projects/test-ped-service/resources/"
+ "/Users/jlents/projects/aicig-notional/"
+ "/Users/jlents/projects/pedestal-testing-projects/test-ped-service/dev/"
+ "/Users/jlents/projects/pedestal-testing-projects/todoit/src/todoit/"
+ "/Users/jlents/projects/pedestal-testing-projects/todoit/"
+ "/Users/jlents/notes/"
+ "/Users/jlents/projects/aicig-notional/dev/"
+ "/Users/jlents/projects/test-clojure/src/test_clojure/"
+ "/Users/jlents/projects/football/dev/"
+ "/Users/jlents/projects/football/src/football/"
+ "/Users/jlents/projects/aicig-etl/src/aicig_etl/"
+ "/Users/jlents/projects/football/"
+ "/Users/jlents/projects/paychecks/src/paychecks/"
+ "/Users/jlents/projects/paychecks/dev/"
+ "/Users/jlents/projects/paychecks/"
+ "/Users/jlents/projects/paychecks/resources/"
+ "/Users/jlents/projects/fantasy-football/src/fantasy_football/"
+ "/Users/jlents/projects/fantasy-football/dev/"
+ "/Users/jlents/projects/fantasy-football/"
+ "/Users/jlents/projects/expense-clojure/"
+ "/Users/jlents/projects/acme/src/acme/"
+ "/Users/jlents/projects/acme/"
+ "/Users/jlents/projects/practice/command-line-arg/src/command_line_arg/"
+ "/Users/jlents/projects/practice/command-line-arg/test/command_line_arg/"
+ "/Users/jlents/projects/practice/command-line-arg/"
+ "/Users/jlents/projects/practice/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "project.clj"
+ "clojure-stuff.el"
+ "utility.clj"
+ ".emacs"
+ ".profile.boot"
+ "profile.clj"
+ ".emacs_bash"
+ "bash-completion.el"
+ "staging.clj"
+ "nrepl.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/jlents/" (21774 64202 0 0) "testing/" "tempFile_nginx.txt" "tempFile_mongoInstall.txt" "security/" "scripts.zip" "scripts.tar.gz" "scripts/" "school/" "sample.txt" "resumes/" "Public/" "projects/" "Pictures/" "notes/" "Music/" "Movies/" "mongodb-cert.key" "mongodb-cert.crt" "Library/" "installs/" "football.pdf" "emacs.bak/" "Downloads/" "Documents/" "Desktop/" "courses/" "Books/" "better-defaults.el" "Applications/" ".Xdefaults" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".ssh/" ".rnd" ".profile.macports-saved_2014-05-04_at_14:20:20" ".profile.boot" ".profile" ".npm/" ".node-gyp/" ".mongorc.js" ".m2/" ".local/" ".lein/" ".ido.last" ".gradle/" ".gitconfig" ".emacs.d/" ".emacs" ".DS_Store" ".dbshell" ".config/" ".CFUserTextEncoding" ".cache/" ".bower/" ".bashrc" ".bash_profile" ".bash_history" "#tempFile_nginx.txt#" "../" "./")
+
+ ("/Users/jlents/.emacs.d/" (21774 63414 0 0) "themes/" "smex-items" "places" "nrepl.el" "init.el" "eshell/" "elpa/" "clojure-stuff.el" "bash-completion.el" "backups/" "auto-save-list/" "ac-comphist.dat" ".emacs_bash" "../" "./")
+
+ ("/Users/jlents/projects/test-clojure/" (21774 63905 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "paper2.zip" "paper2/" "LICENSE" "doc/" ".nrepl-port" ".gitignore" ".DS_Store" "../" "./")
+
+ ("/Users/jlents/projects/a2t-clj/src/a2t_clj/" (21774 63215 0 0) "utility.clj" "security.clj" "response.clj" "query.clj" "notify.clj" "handler.clj" "filter.clj" "exception.clj" "excel_export.clj" "etl/" "entities.clj" "email.clj" "db.clj" "data_relationships.clj" "data.clj" "crypto.clj" "config.clj" "briefing_report.clj" "access.clj" "#utility.clj#" "#config.clj#" "../" "./")
+
+ ("/Users/jlents/projects/expenses-clj/" (21774 62536 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "logs/" "dev/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jlents/.lein/" (21774 61674 0 0) "profile.clj" "../" "./")
+
+ ("/Users/jlents/projects/a2t-clj/" (21774 55170 0 0) "test/" "target/" "src/" "resources/" "README.org" "project.clj" "dev/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jlents/projects/a2t-clj/src/a2t_clj/etl/" (21727 28862 0 0) "transforms.clj" "transform_schemas.clj" "staging.clj" "extraction.clj" "etl.clj" "../" "./")
+
+ ("/Users/jlents/emacs.bak/" (21774 13631 0 0) "themes/" "places" "init.el" "elpa/" "backups/" "auto-save-list/" "ac-comphist.dat" "#init.el#" "../" "./")
+
+ ("/Users/jlents/projects/a2t-clj/src/" (21644 3148 0 0) "a2t_clj/" "../" "./")
+
+ ("/Users/jlents/projects/" (21764 24201 0 0) "toastr-plus/" "test-clojure/" "pedestal-stuff/" "paychecks/" "js_data/" "JavaReview/" "ircop/" "hello-ring/" "hello-compojure/" "football/" "expenses-frontend/" "expenses-clj/" "expenses/" "cled/" "angular2_quickstart/" "aicig-notional/" "aicig-etl/" "aicig-data/" "a2t-clj/" ".DS_Store" "../" "./")
+
+ ("/etc/" (21771 61044 0 0) "zshenv" "xtab" "ttys" "syslog.conf~previous" "syslog.conf" "sudoers" "ssl/" "sshd_config~previous" "sshd_config" "ssh_config~orig" "ssh_config" "snmp/" "shells~orig" "shells" "services" "security/" "rtadvd.conf" "rpc" "rmtab" "resolv.conf" "rc.server.firewall" "rc.server" "rc.netboot" "rc.imaging" "rc.common" "racoon/" "protocols" "profile" "ppp/" "postfix/" "php.ini.default-5.2-previous" "php.ini.default" "php.ini-5.4-previous" "php.ini-5.2-previous" "php-fpm.conf.default" "pf.os" "pf.conf" "pf.anchors/" "periodic/" "pear.conf-previous" "paths.d/" "paths" "passwd~orig" "passwd" "pam.d/" "openldap/" "ntp_opendirectory.conf" "ntp.conf" "ntp-restrict.conf" "notify.conf" "nfs.conf~orig" "nfs.conf" "newsyslog.d/" "newsyslog.conf" "networks" "nanorc" "moduli~previous" "moduli" "master.passwd~orig" "master.passwd" "manpaths.d/" "manpaths" "man.conf" "mail.rc" "mach_init_per_user.d/" "mach_init_per_login_session.d/" "mach_init.d/" "locate.rc" "localtime" "krb5.keytab" "kern_loader.conf" "irbrc" "hosts.equiv" "hosts" "group~previous" "group" "gettytab" "ftpusers" "ftpd.conf.default" "ftpd.conf" "fstab.hd" "find.codes" "emond.d/" "efax.rc" "dnsextd.conf" "defaults/" "cups/" "csh.logout" "csh.login" "csh.cshrc" "com.apple.screensharing.agent.launchd" "certificates/" "bashrc" "autofs.conf" "auto_master" "auto_home" "asl.conf" "asl/" "apache2/" "aliases.db" "aliases" "afpovertcp.cfg" "af.plist" "../" "./")
+
+ ("/Users/jlents/projects/football/" (21759 33599 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "dev/" ".git/" "../" "./")
+
+ ("/Users/jlents/projects/hello-compojure/src/hello_compojure/" (21644 6072 0 0) "database.clj" "config.clj" "../" "./")
+
+ ("/Users/jlents/projects/expenses-clj/dev/" (21727 29208 0 0) "user.clj" "../" "./")
+
+ ("/Users/jlents/projects/expenses-clj/src/expenses_clj/" (21727 29879 0 0) "utility.clj" "response.clj" "parse_json.clj" "handler.clj" "exception.clj" "entities.clj" "db.clj" "database.clj" "data_validation.clj" "data.clj" "config.clj" "../" "./")
+
+ ("/Users/jlents/projects/hello-compojure/" (21641 28318 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "dev/" ".lein-repl-history" ".gitignore" "../" "./")
+
+ ("/Users/jlents/projects/expenses-clj/src/expenses_clj/core/" (21644 1975 0 0) "handler.clj" ".#handler.clj" "../" "./")
+
+ ("/Users/jlents/projects/hello-compojure/dev/" (21636 15173 0 0) "user.clj" "../" "./")
+
+ ("/Users/jlents/projects/hello-ring/src/hello_ring/" (21636 41391 0 0) "core.clj" "../" "./")
+
+ ("/Users/jlents/projects/expenses-clj/src/" (21640 48280 0 0) "expenses_clj/" "../" "./")
+
+ ("/Users/jlents/projects/hello-compojure/src/hello_compojure/core/" (21638 30211 0 0) "handler.clj" "../" "./")
+
+ ("/Users/jlents/projects/hello-compojure/resources/public/" (21636 12576 0 0) "index.html" "../" "./")
+
+ ("/Users/jlents/projects/hello-compojure/resources/" (21635 36836 0 0) "public/" "../" "./")
+
+ ("/Users/jlents/projects/hello-compojure/src/" (21635 36836 0 0) "hello_compojure/" "../" "./")
+
+ ("/Users/jlents/projects/aicig-etl/src/aicig_etl/" (21635 22795 0 0) "utility.clj" "transforms.clj" "ingest.clj" "db.clj" "crypto.clj" "core.clj" "config.clj" "../" "./")
+
+ ("/Users/jlents/projects/aicig-notional/dev/" (21635 22764 0 0) "user.clj" "../" "./")
+
+ ("/Users/jlents/projects/aicig-notional/" (21635 22764 0 0) "test/" "target/" "src/" "resources/" "README.org" "project.clj" "LICENSE" "in-order-of-num-times-traced-through.txt" "doc/" "dev/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-stuff/tutorial-client/" (21635 22688 0 0) "tools/" "test/" "README.md" "project.clj" "out/" "logs/" "config/" "app/" ".lein-repl-history" ".gitignore" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-stuff/tutorial-client/app/src/tutorial_client/" (21635 17119 0 0) "start.cljs" "simulated/" "rendering.cljs" "html_templates.clj" "behavior.clj" "../" "./")
+
+ ("/Users/jlents/projects/hello-ring/" (21635 23970 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" ".lein-repl-history" ".gitignore" "../" "./")
+
+ ("/Users/jlents/projects/myblog/" (21635 36393 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" ".gitignore" "../" "./")
+
+ ("/Users/jlents/projects/hello-ring/src/" (21635 23255 0 0) "hello_ring/" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-stuff/tutorial-client/app/src/" (21635 15167 0 0) "tutorial_client/" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-stuff/tutorial-client/app/" (21635 15167 0 0) "templates/" "src/" "assets/" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-stuff/" (21635 15167 0 0) "tutorial-client/" "todoit/" "test-ped-service/" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-testing-projects/test-ped-service/src/test_ped_service/" (21635 14345 0 0) "service.clj" "server.clj" "db.clj" "config.clj" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-testing-projects/test-ped-service/" (21635 14194 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "logs/" "dev/" "db.clj" "config/" ".lein-repl-history" ".gitignore" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-testing-projects/test-ped-service/resources/" (21635 11177 0 0) "logback.xml" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-testing-projects/todoit/" (21634 64391 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" ".gitignore" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-testing-projects/test-ped-service/dev/" (21635 260 0 0) "user.clj" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-testing-projects/test-ped-service/src/" (21634 63474 0 0) "test_ped_service/" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-testing-projects/" (21634 63474 0 0) "todoit/" "test-ped-service/" "../" "./")
+
+ ("/Users/jlents/notes/" (21634 64549 0 0) "x509-node-example.txt" "Technology_list.txt" "STATS Inc" "ssl_notes.txt" "pedestal.clj" "node-notes/" "nginx-notes/" "mongo-notes/" "mean-stack-dir-structure/" "Home Automation" "expense-manager/" "date-picker.html.bak" "date-picker-3.html.bak" "date-picker-2.html.bak" "bootstrap-notes/" "angular-notes/" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-testing-projects/todoit/src/todoit/" (21634 64289 0 0) "core.clj" "../" "./")
+
+ ("/Users/jlents/projects/pedestal-testing-projects/todoit/src/" (21634 62877 0 0) "todoit/" "../" "./")
+
+ ("/Users/jlents/projects/paychecks/" (21590 19244 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "dev/" ".git/" "../" "./")
+
+ ("/Users/jlents/projects/football/src/football/" (21593 49653 0 0) "utility.clj" "transforms.clj" "routing.clj" "handler.clj" "db.clj" "core.clj" "config.clj" "#utility.clj#" "../" "./")
+
+ ("/Users/jlents/projects/football/dev/" (21594 52977 0 0) "user.clj" "#user.clj#" "../" "./")
+
+ ("/Users/jlents/projects/test-clojure/src/test_clojure/" (21619 51499 0 0) "core.clj" "../" "./")
+
+ ("/Users/jlents/projects/test-clojure/src/" (21619 51499 0 0) "test_clojure/" "../" "./")
+
+ ("/Users/" (21575 41712 0 0) "Shared/" "jlents/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/jlents/projects/aicig-etl/src/" (21577 27867 0 0) "aicig_etl/" "../" "./")
+
+ ("/Users/jlents/projects/aicig-etl/" (21577 27867 0 0) "test/" "src/" "README.org" "project.clj" "doc/" "dev/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/jlents/projects/football/src/" (21590 17636 0 0) "football/" "../" "./")
+
+ ("/Users/jlents/projects/paychecks/src/paychecks/" (21590 17425 0 0) "utility.clj" "routing.clj" "handler.clj" "db.clj" "core.clj" "config.clj" "../" "./")
+
+ ("/Users/jlents/projects/paychecks/dev/" (21588 53343 0 0) "user.clj" "../" "./")
+
+ ("/Users/jlents/projects/paychecks/resources/" (21588 16040 0 0) "mongoimport.js" "../" "./")
+
+ ("/Users/jlents/projects/paychecks/src/" (21577 27802 0 0) "paychecks/" "../" "./")
+
+ ("/Users/jlents/projects/fantasy-football/src/fantasy_football/" (21566 34536 0 0) "players.clj" "fields.clj" "data.clj" "core.clj" "../" "./")
+
+ ("/Users/jlents/projects/fantasy-football/dev/" (21563 9332 0 0) "user.clj" "*cider-repl 127.0.0.1*" "../" "./")
+
+ ("/Users/jlents/projects/fantasy-football/" (21563 50058 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "dev/" ".nrepl-port" ".lein-failures" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/jlents/projects/practice/command-line-arg/" (21490 363 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" ".lein-failures" ".gitignore" "../" "./")
+
+ ("/Users/jlents/projects/practice/command-line-arg/src/command_line_arg/" (21489 65513 0 0) "core.clj" "../" "./")
+
+ ("/Users/jlents/projects/acme/" (21556 34819 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" ".gitignore" "../" "./")
+
+ ("/Users/jlents/projects/acme/src/acme/" (21556 34788 0 0) "handler.clj" "#handler.clj#" "../" "./")
+
+ ("/Users/jlents/projects/expense-clojure/" (21559 14392 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" ".git/" "#project.clj#" "../" "./")
+
+ ("/Users/jlents/projects/fantasy-football/src/" (21559 14168 0 0) "fantasy_football/" "../" "./")
+
+ ("/Users/jlents/projects/acme/src/" (21556 26787 0 0) "acme/" "../" "./")
+
+ ("/Applications/" (21489 1013 0 0) "WebStorm.app/" "Utilities/" "Time Machine.app/" "TextEdit.app/" "System Preferences.app/" "Sublime Text.app/" "Stickies.app/" "Spotify.app/" "Server.app/" "Safari.app/" "Robomongo.app/" "Reminders.app/" "QuickTime Player.app/" "Preview.app/" "Photo Booth.app/" "Pages.app/" "Numbers.app/" "Notes.app/" "Mission Control.app/" "Microsoft Silverlight/" "Messages.app/" "Maps.app/" "Mail.app/" "MacPorts/" "Launchpad.app/" "Keynote.app/" "iTunes.app/" "iTerm.app/" "iPhoto.app/" "iMovie.app/" "Image Capture.app/" "iBooks.app/" "Google Chrome.app/" "GarageBand.app/" "Game Center.app/" "Font Book.app/" "FaceTime.app/" "Emacs.app/" "DVD Player.app/" "Dictionary.app/" "Dashboard.app/" "Contacts.app/" "Chess.app/" "Calendar.app/" "Calculator.app/" "BetterSnapTool.app/" "Automator.app/" "App Store.app/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/jlents/projects/practice/command-line-arg/test/command_line_arg/" (21489 64170 0 0) "core_test.clj" "../" "./")
+
+ ("/Users/jlents/projects/practice/command-line-arg/test/" (21488 52345 0 0) "command_line_arg/" "../" "./")
+
+ ("/Users/jlents/projects/practice/" (21488 52345 0 0) "command-line-arg/" "../" "./")
+
+ ("/Users/jlents/projects/expenses/" (21353 25227 0 0) "test/" "src/" "README.md" "package.json" "node_modules/" "Gulpfile.js" "build/" "bower.json" ".idea/" ".gitignore" ".git/" ".bowerrc" "../" "./")
+
+ ("/Users/jlents/projects/practice/command-line-arg/src/" (21488 52345 0 0) "command_line_arg/" "../" "./")
+
+ ("/usr/bin/" (21488 53226 0 0) "zprint" "znew" "zmore" "zless" "zipsplit" "zipnote" "zipinfo" "zipgrep" "zipdetails5.16" "zipdetails" "zipcloak" "zip" "zgrep" "zforce" "zfgrep" "zegrep" "zdiff" "zcmp" "zcat" "ypwhich" "ypmatch" "ypcat" "yes" "yacc" "xxd" "xsubpp5.16" "xsubpp5.12" "xsubpp" "xsltproc" "xslt-config" "xpath5.16" "xpath5.12" "xpath" "xmllint" "xmlcatalog" "xml2man" "xml2-config" "xjc" "xip" "xgettext5.16.pl" "xgettext5.12.pl" "xgettext.pl" "xed" "xcrun" "xcodebuild" "xcode-select" "xattr-2.7" "xattr-2.6" "xattr-2.5" "xattr" "xargs" "xar" "wsimport" "wsgen" "write" "wish8.5" "wish8.4" "wish" "whois" "whoami" "who" "which" "whereis" "whatis" "what" "weblatency.d" "wdutil" "wc" "wall" "wait" "w" "vmmap" "vm_stat" "vis" "vimtutor" "vimdiff" "vim" "view" "vi" "uux" "uuto" "uustat" "uupick" "uuname" "uulog" "uuidgen" "uuencode" "uudecode" "uucp" "users" "uptime" "update_dyld_shared_cache" "unzipsfx" "unzip" "unvis" "UnRezWack" "unpack200" "units" "uniq" "unifdefall" "unifdef" "unexpand" "uncompress" "uname" "unalias" "umask" "ulimit" "ul" "ubcontrol" "type" "twistd" "tty" "tsort" "tset" "true" "troff" "trial" "treereg5.16" "treereg5.12" "treereg" "traptoemail" "trace" "tr" "tput" "touch" "topsysproc" "topsyscall" "tops" "top" "toe" "tnameserv" "tmutil" "tmdiagnose" "tkpp5.16" "tkpp5.12" "tkpp" "tkmib" "tkcon" "timerfires" "timer_analyser.d" "time" "tiffutil" "tiff2icns" "tidy" "tic" "tftp" "tfmtodit" "textutil" "texindex" "texi2pdf" "texi2dvi" "testrb" "telnet" "tee" "tclsh8.5" "tclsh8.4" "tclsh" "tccutil" "tbl" "tar" "talk" "tail" "tabs" "tab2space" "syslog" "sysdiagnose" "syscallbysysc.d" "syscallbyproc.d" "syscallbypid.d" "symbolscache" "symbols" "sw_vers" "svnversion" "svnsync" "svnserve" "svnlook" "svndumpfilter" "svnadmin" "svn" "sum" "sudo" "su" "stty5.16.pl" "stty5.12.pl" "stty.pl" "strip" "strings" "stringdups" "stat" "ssh-keyscan" "ssh-keygen" "ssh-agent" "ssh-add" "ssh" "srm" "sqlite3" "SplitForks" "split" "splain5.16" "splain5.12" "splain" "spfquery5.16" "spfquery5.12" "spfquery" "spfd5.16" "spfd5.12" "spfd" "sort" "soelim" "sntp" "snmpwalk" "snmpvacm" "snmpusm" "snmptrap" "snmptranslate" "snmptest" "snmptable" "snmpstatus" "snmpset" "snmpnetstat" "snmpinform" "snmpgetnext" "snmpget" "snmpdf" "snmpdelta" "snmpconf" "snmpbulkwalk" "snmpbulkget" "snmp-bridge-mib" "snfsdefrag" "smtpd2.7.py" "smtpd2.6.py" "smtpd2.5.py" "smtpd.py" "smbutil" "slogin" "size" "sips" "sigdist.d" "showmount" "shlock" "shasum5.16" "shasum5.12" "shasum" "shar" "sftp" "setuids.d" "setregion" "SetFile" "servertool" "serialver" "seq" "segedit" "seeksize.d" "sed" "security" "sdx" "sdp" "sdiff" "sdef" "script" "screen" "scp" "schemagen" "scandeps5.16.pl" "scandeps5.12.pl" "scandeps.pl" "sc_usage" "say" "sar" "sandbox-simplify" "sandbox-exec" "sampleproc" "sample" "s2p5.16" "s2p5.12" "s2p" "rwsnoop" "rwho" "rwbytype.d" "rwbypid.d" "rvim" "rview" "rvictl" "ruptime" "runocc.d" "ruby" "rsync" "rsh" "RSA_SecurID_getpasswd" "rs" "rpcgen" "rmiregistry" "rmid" "rmic" "rlogin" "ri" "RezWack" "RezDet" "Rez" "rev" "resolveLinks" "ResMerger" "reset" "renice" "refer" "redo_prebinding" "rebase" "readlink" "read" "rdoc" "ranlib" "rake" "rails" "quota" "qtdefaults" "qlmanage" "qc2movie" "pythonw2.7" "pythonw2.6" "pythonw2.5" "pythonw" "python2.7-config" "python2.7" "python2.6-config" "python2.6" "python2.5-config" "python2.5" "python-config" "python" "pydoc2.7" "pydoc2.6" "pydoc2.5" "pydoc" "pwpolicy" "pwhich5.16" "pwhich" "pubsub" "ptargrep5.16" "ptargrep" "ptardiff5.16" "ptardiff5.12" "ptardiff" "ptar5.16" "ptar5.12" "ptar" "pstruct5.16" "pstruct5.12" "pstruct" "pstopdf" "psed5.16" "psed5.12" "psed" "prove5.16" "prove5.12" "prove" "profiles" "productsign" "productbuild" "procsystime" "procmail" "printf" "printenv" "pridist.d" "priclass.d" "pre-grohtml" "pr" "ppdpo" "ppdmerge" "ppdi" "ppdhtml" "ppdc" "pp5.16" "pp5.12" "pp" "powermetrics" "power_report.sh" "post-grohtml" "policytool" "podselect5.16" "podselect5.12" "podselect" "podchecker5.16" "podchecker5.12" "podchecker" "pod2usage5.16" "pod2usage5.12" "pod2usage" "pod2text5.16" "pod2text5.12" "pod2text" "pod2readme5.16" "pod2readme5.12" "pod2readme" "pod2man5.16" "pod2man5.12" "pod2man" "pod2latex5.16" "pod2latex5.12" "pod2latex" "pod2html5.16" "pod2html5.12" "pod2html" "pmset" "plutil" "pluginkit" "plockstat" "pl2pm5.16" "pl2pm5.12" "pl2pm" "pl" "pkill" "pkgbuild" "pidpersec.d" "piconv5.16" "piconv5.12" "piconv" "pico" "pic2graph" "pic" "phpize" "php-config" "php" "phar.phar" "phar" "pgrep" "pfbtops" "perlthanks5.16" "perlthanks5.12" "perlthanks" "perlivp5.16" "perlivp5.12" "perlivp" "perldoc5.16" "perldoc5.12" "perldoc" "perlbug5.16" "perlbug5.12" "perlbug" "perl5.16" "perl5.12" "perl" "perfdiagnose" "pecl" "peardev" "pear" "pdfroff" "pcsctool" "pcsctest" "pcap-config" "pbpaste" "pbcopy" "pathopens.d" "pathchk" "patch" "paste" "passwd" "parldyn5.16" "parldyn5.12" "parldyn" "parl5.16" "parl5.12" "parl" "par5.16.pl" "par5.12.pl" "par.pl" "pagestuff" "pagesize" "package-stash-conflicts5.16" "package-stash-conflicts5.12" "package-stash-conflicts" "pack200" "otool" "osascript" "osalang" "osadecompile" "osacompile" "orbd" "openssl" "opensnoop" "opendiff" "open" "odutil" "od" "ntpq" "ntp-keygen" "nsupdate" "nslookup" "nroff" "notifyutil" "nohup" "nmedit" "nm" "nl" "nice" "nfsstat" "newproc.d" "newgrp" "newaliases" "nettop" "net-snmp-create-v3-user" "net-snmp-config" "net-snmp-cert" "net-server5.16" "net-server" "neqn" "ndisasm" "ncurses5.4-config" "ncdestroy" "ncal" "nc" "nbdst" "native2ascii" "nasm" "nano" "MvMac" "msgs" "mp2bug" "more" "moose-outdated5.16" "moose-outdated5.12" "moose-outdated" "mnthome" "mmroff" "mktemp" "mklocale" "mkfifo" "mkdep" "mkbom" "mig" "mib2c-update" "mib2c" "mesg" "MergePef" "memory_pressure" "memcached" "mdutil" "mdls" "mdimport32" "mdimport" "mdfind" "mddiagnose" "mcxrefresh" "mcxquery" "manpath" "man" "malloc_history" "makeinfo" "make" "mailx" "mailstat" "mailq" "mail" "machine" "macerror5.16" "macerror5.12" "macerror" "macbinary" "m4" "lwp-request5.16" "lwp-request5.12" "lwp-request" "lwp-mirror5.16" "lwp-mirror5.12" "lwp-mirror" "lwp-dump5.16" "lwp-dump5.12" "lwp-dump" "lwp-download5.16" "lwp-download5.12" "lwp-download" "lsvfs" "lsm" "lsbom" "lsappinfo" "lpstat" "lprm" "lpr" "lpq" "lppasswd" "lpoptions" "lp" "lorder" "lookbib" "look" "logname" "login" "logger" "lockfile" "locate" "localedef" "locale" "loads.d" "llvm-gcc" "llvm-g++" "lldb" "lkbib" "lipo" "libtool" "libnetcfg5.16" "libnetcfg5.12" "libnetcfg" "lex" "lessecho" "less" "leave" "leaks" "ldapwhoami" "ldapurl" "ldapsearch" "ldappasswd" "ldapmodrdn" "ldapmodify" "ldapexop" "ldapdelete" "ldapcompare" "ldapadd" "ld" "latency" "lastwords" "lastcomm" "last" "lam" "kswitch" "krb5-config" "kpasswd" "klist" "kinit" "killall" "kill.d" "kgetcred" "keytool" "kextutil" "kdestroy" "kcc" "jvisualvm" "jstatd" "jstat" "jstack" "json_pp5.16" "json_pp" "jsadebugd" "jrunscript" "jps" "jot" "join" "jobs" "jmap" "jinfo" "jhat" "jdb" "jconsole" "jcmd" "javaws" "javap" "javah" "javadoc" "javac" "java" "jarsigner" "jar" "irb" "iptab5.16" "iptab5.12" "iptab" "iprofiler" "ipptool" "ippfind" "ipmitool" "ipcs" "ipcrm" "ipcount5.16" "ipcount5.12" "ipcount" "ip2cc5.16" "ip2cc5.12" "ip2cc" "iotop" "iosnoop" "iopending" "iopattern" "iofileb.d" "iofile.d" "instruments" "instmodsh5.16" "instmodsh5.12" "instmodsh" "install_name_tool" "install-info" "install" "infotocap" "infokey" "infocmp" "info" "indxbib" "indent" "imptrace" "idlj" "idle2.7" "idle2.6" "idle2.5" "idle" "id" "ictool" "iconv" "iconutil" "ibtool" "httpdstat.d" "htmltree5.16" "htmltree5.12" "htmltree" "hpftodit" "hotspot.d" "hostinfo" "host" "hiutil" "hexdump" "heap" "headerdoc2html" "head" "hdxml2manxml" "hdiutil" "hdid" "hash" "h2xs5.16" "h2xs5.12" "h2xs" "h2ph5.16" "h2ph5.12" "h2ph" "gzip" "gzexe" "gzcat" "gunzip" "groups" "grotty" "grops" "grolj4" "grolbp" "grog" "groffer" "groff" "grodvi" "grn" "grep" "grap2graph" "gperf" "gnuserv" "gnumake" "gnudoit" "gnuclient" "gnuattach" "gm4" "git-upload-pack" "git-upload-archive" "git-shell" "git-receive-pack" "git-cvsserver" "git" "getopts" "getopt" "GetFileInfo" "getconf" "genstrings" "gencat" "gen_bridge_metadata" "gem" "gdiffmk" "gcov" "gcc" "gatherheaderdoc" "g++" "fwkpfv" "fwkdp" "fuser" "funzip" "ftp" "fs_usage" "from" "format-sql5.16" "format-sql5.12" "format-sql" "formail" "footprint" "fontrestore" "fold" "fmt" "flex++" "flex" "fixproc" "finger" "findrule5.16" "findrule5.12" "findrule" "find2perl5.16" "find2perl5.12" "find2perl" "find" "filtercalltree" "filebyproc.d" "file" "fgrep" "fg" "fdesetup" "fddist" "fc" "fax" "false" "eyapp5.16" "eyapp5.12" "eyapp" "extcheck" "expect" "expand" "execsnoop" "ex" "etags" "errinfo" "erb" "eqn2graph" "eqn" "env" "encode_keychange" "enc2xs5.16" "enc2xs5.12" "enc2xs" "emacsclient" "emacs.bak" "emacs-undumped" "emacs" "egrep" "efix" "efax" "easy_install-2.7" "easy_install-2.6" "easy_install-2.5" "easy_install" "dwarfdump" "du" "dtruss" "dsymutil" "dsmemberutil" "dsimport" "dsexport" "dserr" "dscl" "dscacheutil" "drutil" "dprofpp5.12" "dprofpp" "dnsctl" "dns-sd" "ditto" "dispqlen.d" "diskhits" "dirname" "dig" "diffstat" "diff3" "diff" "desdp" "DeRez" "defaults" "dc" "dbiproxy5.16" "dbiproxy5.12" "dbiproxy" "dbiprof5.16" "dbiprof5.12" "dbiprof" "dbilogstrip5.16" "dbilogstrip5.12" "dbilogstrip" "dbicadmin5.16" "dbicadmin5.12" "dbicadmin" "db_verify" "db_upgrade" "db_stat" "db_recover" "db_printlog" "db_load" "db_hotbackup" "db_dump" "db_deadlock" "db_codegen" "db_checkpoint" "db_archive" "darwinup" "dapptrace" "dappprof" "cvmkfile" "cvmkdir" "cvcp" "cvaffinity" "cut" "curl-config" "curl" "cupstestppd" "cupstestdsc" "cups-config" "cu" "ctf_insert" "ctags" "csreq" "csplit" "crontab" "crlrefresh" "creatbyproc.d" "crc325.16" "crc325.12" "crc32" "cpuwalk.d" "cpu_profiler.d" "cpp" "CpMac" "cpio" "cpanp5.16" "cpanp5.12" "cpanp-run-perl5.16" "cpanp-run-perl5.12" "cpanp-run-perl" "cpanp" "cpan5.16" "cpan5.12" "cpan2dist5.16" "cpan2dist5.12" "cpan2dist" "cpan" "corelist5.16" "corelist5.12" "corelist" "config_data5.16" "config_data5.12" "config_data" "compress" "command" "comm" "column" "colrm" "colldef" "colcrt" "col" "codesign_allocate" "codesign" "cmpdylib" "cmp" "clear" "clang++" "clang" "cksum" "chsh" "chpass" "chgrp" "chfn" "chflags" "checknr" "certtool" "cd" "cc" "captoinfo" "cap_mkdb" "cancel" "calendar" "cal" "caffeinate" "c_rehash" "c99" "c89" "c2ph5.16" "c2ph5.12" "c2ph" "c++filt" "c++" "bzmore" "bzless" "bzip2recover" "bzip2" "bzgrep" "bzfgrep" "bzegrep" "bzdiff" "bzcmp" "bzcat" "bunzip2" "BuildStrings" "btmmdiagnose" "bspatch" "bsdtar" "bitesize.d" "bison" "binhex" "biff" "bg" "bc" "batch" "bashbug" "basename" "base64" "banner" "awk" "avmetareadwrite" "avconvert" "auvaltool" "auval" "automator" "atsutil" "atrm" "atq" "atos" "at" "asctl" "asa" "as" "arch" "ar" "apu-1-config" "apt" "apropos" "apr-1-config" "apply" "appletviewer" "applesingle" "allmemory" "alias" "agvtool" "agentxtrap" "afplay" "afmtodit" "afinfo" "afida" "afhash" "afconvert" "addftinfo" "a2p5.16" "a2p5.12" "a2p" "2to32.6" "2to3-2.7" "2to3-" "2to3" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

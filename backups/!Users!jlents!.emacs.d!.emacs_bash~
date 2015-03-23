@@ -1,0 +1,6 @@
+(load "~/.emacs.d/bash-completion.el")
+
+(setq shell-file-name "bash")
+(setq shell-command-switch "-ic")
+(require 'bash-completion)
+(bash-completion-setup)

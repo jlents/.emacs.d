@@ -1,0 +1,134 @@
+
+(ns fantasy-football.fields)
+
+(def op
+  {:sum (fn [& x] (reduce + x))
+   :avg (fn [& x] (float (/ (reduce + x) (count x))))
+   :no (fn [& x] (first x))
+   :max (fn [& x] (apply max x))})
+
+(def conversion
+  {:dub (fn [x] (Double. x))
+   :int (fn [x] (Integer. x))
+   :txt (fn [x] (str x))})
+          
+(def field-type-conversion-op
+  {:player (conversion :txt)
+   :team (conversion :txt)
+   :position (conversion :txt)
+   :comp (conversion :dub)
+   :passing-att (conversion :int)
+   :passing-pct (conversion :dub)
+   :passing-yds (conversion :int)
+   :passing-ypa (conversion :dub)
+   :passing-long (conversion :int)
+   :passing-td (conversion :int)
+   :passing-int (conversion :int)
+   :passing-sack (conversion :int)
+   :passing-rate (conversion :dub)
+   :passing-ypg (conversion :dub)
+   :passing-comp (conversion :dub)
+   :rushing-att (conversion :int)
+   :rushing-yds (conversion :int)
+   :rushing-ypa (conversion :dub)
+   :rushing-long (conversion :int)
+   :rushing-20+ (conversion :int)
+   :rushing-td (conversion :int)
+   :rushing-ypg (conversion :dub)
+   :rushing-fum (conversion :int)
+   :rushing-1dn (conversion :int)
+   :receiving-rec (conversion :int)
+   :receiving-tgt (conversion :int)
+   :receiving-yds (conversion :int)
+   :receiving-avg (conversion :dub)
+   :receiving-td (conversion :int)
+   :receiving-long (conversion :int)
+   :receiving-20+ (conversion :int)
+   :receiving-ypg (conversion :dub)
+   :receiving-fum (conversion :int)
+   :receiving-yac (conversion :int)
+   :receiving-1dn (conversion :int)
+   :kickoff-att  (conversion :int)
+   :kickoff-yds (conversion :int)
+   :kickoff-avg (conversion :dub)
+   :kickoff-lng (conversion :int)
+   :kickoff-td (conversion :int)
+   :punt-att (conversion :int)
+   :punt-yds (conversion :int)
+   :punt-avg (conversion :dub)
+   :punt-lng (conversion :int)
+   :punt-td (conversion :int)
+   :punt-fc (conversion :int)
+   :fieldgoal-fgm (conversion :int)
+   :fieldgoal-fga (conversion :int)
+   :fieldgoal-pct (conversion :dub)
+   :fieldgoal-lng (conversion :int)
+   :fieldgoal-1-19  (conversion :txt)
+   :fieldgoal-20-29 (conversion :txt)
+   :fieldgoal-30-39 (conversion :txt)
+   :fieldgoal-40-49 (conversion :txt)
+   :fieldgoal-50+ (conversion :txt)
+   :extrapoint-xpm (conversion :int)
+   :extrapoint-xpa (conversion :int)
+   :extrapoint-pct (conversion :dub)}
+   )
+
+(def field-merge-operation 
+  {:player :no
+   :team :no
+   :position :no
+   :comp :sum
+   :passing-att :sum
+   :passing-pct :avg
+   :passing-yds :sum
+   :passing-ypa :avg
+   :passing-long :max
+   :passing-td :sum
+   :passing-int :sum
+   :passing-sack :sum
+   :passing-rate :avg
+   :passing-ypg :avg
+   :rushing-att :sum
+   :rushing-yds :sum
+   :rushing-ypa :avg
+   :rushing-long :max
+   :rushing-20+ :sum
+   :rushing-td :sum
+   :rushing-ypg :avg
+   :rushing-fum :sum
+   :rushing-1dn :sum
+   :receiving-rec :sum
+   :receiving-tgt :sum
+   :receiving-yds :sum
+   :receiving-avg :avg
+   :receiving-td :sum
+   :receiving-long :max
+   :receiving-20+ :sum
+   :receiving-ypg :avg
+   :receiving-fum :sum
+   :receiving-yac :sum
+   :receiving-1dn :sum
+   :kickoff-att :sum
+   :kickoff-yds :sum
+   :kickoff-avg :avg
+   :kickoff-lng :max
+   :kickoff-td :sum
+   :punt-att :sum
+   :punt-yds :sum
+   :punt-avg :avg
+   :punt-lng :max
+   :punt-td :max
+   :punt-fc :sum
+   :fieldgoal-fgm :sum
+   :fieldgoal-fga :sum
+   :fieldgoal-pct :avg
+   :fieldgoal-lng :max
+   :fieldgoal-1-19 :sum
+   :fieldgoal-20-29 :sum
+   :fieldgoal-30-39 :sum
+   :fieldgoal-40-49 :sum
+   :fieldgoal-50+ :sum
+   :extrapoint-xpm :sum
+   :extrapoint-xpa :sum
+   :extrapoint-pct :avg
+   })

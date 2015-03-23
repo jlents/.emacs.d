@@ -1,0 +1,82 @@
+((("pretty-mode-plus" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("require" .
+   [2 0 0 0 0 0 0])
+  ("nil" .
+   [1 0 0])
+  ("save-interprogram-paste-before-kill" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [11 0 0 0])
+  ("request" .
+   [1 0 0 0 0 0 0])
+  ("wombat" .
+   [3 0 0 0 0 0])
+  ("load-theme" .
+   [0 0 0 1 0 1 0 0 0 0])
+  ("add-to-list" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("package-archive" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("custom-set-variables" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0])
+  ("initial-frame-alist" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("quote" .
+   [2 0 0 0 0])
+  ("fullscreen" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("maximized" .
+   [0 0 0 0 0 0 0 0 1])
+  ("if" .
+   [1 0])
+  ("display-graphic-p" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("progn" .
+   [1 0 0 0 0])
+  ("tool-bar-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("scroll-bar-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("menu-bar-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("global-linum-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("defvar" .
+   [3 0 0 0 0 0])
+  ("my-packages" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("auto-complete" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ac-nrepl" .
+   [1 0 0 0 0 0 0 0])
+  ("auto-indent-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("clojure-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("cider" .
+   [1 0 0 0 0])
+  ("paredit" .
+   [1 0 0 0 0 0 0])
+  ("rainbow-delimiters" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("rainbow-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("popup" .
+   [1 0 0 0 0])
+  ("clojure-test-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ido" .
+   [1 0 0])
+  ("ido-mode" .
+   [1 0 0 0 0 0 0 0])
+  ("dolist" .
+   [2 0 0 0 0 0])
+  ("load" .
+   [3 0 0 0])
+  ("def" .
+   [1 0 0])
+  ("add-hook" .
+   [1 0 0 0 0 0 0 0])
+  ("eval-after-load" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])))

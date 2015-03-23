@@ -1,0 +1,24 @@
+
+;; ----- smex-history -----
+(
+ cider-connect
+ shell
+ list-packages
+ uncomment-region
+ comment-region
+ eshell
+ package-install
+)
+
+;; ----- smex-data -----
+(
+ (cd . 1)
+ (comment-region . 7)
+ (uncomment-region . 6)
+ (eshell . 3)
+ (package-install . 3)
+ (shell . 21)
+ (cider . 1)
+ (cider-connect . 3)
+ (list-packages . 1)
+)

@@ -1,0 +1,59 @@
+(ns football.transforms
+  (:require [clojure.string]
+            [football.config :as config]
+            [football.utility :as util])
+  (:gen-class))
+
+(defn blocks-t
+  "Transforms blocked play data." [ds-vec]
+  (defn per-block
+    "Transform single blocks record." [m]
+    {:_id (util/gen-oid)
+     :play-id (:play-id m)
+     :blocking-player-id (:blocking-player-id m)
+     :recovering-player-id (:returning-player-id m)})
+  (map per-block (first ds-vec)))
+
+(defn plays-t
+  "Transforms plays." [ds-vec]
+  (defn per-play
+    "Transform single play." [m]
+    {:_id (util/gen-oid)
+     :play-id (:play-id m)
+     :game-id (:game-id m)
+     :defensive-team (:defensive-team m)
+     :offensive-team (:offensive-team m)
+     :quarter (:quarter m)
+     :minute (:minute m)
+     :second (:second m)
+     :down (:down m)
+     :timeouts-defense (:timeouts-defense m)
+     :timeouts-offense (:timeouts-offense m)
+     :points-defense (:points-defense m)
+     :points-offense (:points-offense m)
+     :yards-to-first-down (:yards-to-first-down m)
+     :yards-from-endzone (:yards-from-endzone m)
+
+     :field-zone (:field-zone m)      ; needs more research (identifies what zone of field you're in)
+     :drive-sequence (:drive-sequence m)  ; not sure what this is, maybe the particular play in a drive?
+
+     :play-type (:play-type m)
+     :play-length (:play-length m)
+     :oline-id (:oline-id m)
+     :result nil})
+  (let [plays (reduce (fn[a _] (assoc a (_ :play-id) (per-play _))) {} (first ds-vec))
+        sources (flatten (rest ds-vec))
+        plays (reduce util/merge-plays plays sources)
+        plays (map plays (keys plays))]
+    plays))
+
+;        plays (into plays (for [block blocks]
+;                            (let[block (dissoc block :_id)
+;                                 play (plays (:play-id block))
+;                                 play (into play block)]
+;                              (assoc plays (:play-id play) play))))
+;        plays (map plays (keys plays))]
+;    plays))
+
+
+;  (map per-play (first ds-vec)))

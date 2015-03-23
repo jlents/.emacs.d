@@ -1,0 +1,121 @@
+(ns fantasy-football.data
+  (:require [fantasy-football.fields :as fields]))
+;  (:require '[clojure.core.reducers :as r])
+
+;  (let [orig-v (c k)
+;        c (dissoc c k)]
+
+;(defn merge-duplicates
+;  [c k v]
+;  (defn merge-fields
+;    [my-map my-keys vals1 vals2]
+;    (if (seq my-keys)
+;      (let [cur-key (first my-keys)
+;            val1 (vals1 cur-key)
+;            val2 (vals2 cur-key)]
+;        (if (= :sum (fields/field-types cur-key))
+;          (merge-fields (assoc my-map cur-key (+ val1 val2)) (rest my-keys) vals1 vals2)
+;          (merge-fields (assoc my-map cur-key (+ val1 val2)) (rest my-keys) vals1 vals2))))
+;    my-map)
+;  (let [a (dissoc c k)
+;        x (merge-fields {} (keys v) v (c k))]
+;    (assoc a k x)))
+
+(defn merge-duplicates
+  "There are values in c associated with k. 
+We plan to dissoc k from c, take the values dissociated and merge with v,
+then assoc (k v) back into c, return c"
+  [c k v]
+  (let [vals1 (c k)
+        vals2 v
+        cur-coll (dissoc c k)
+        new-vals (loop [my-vals {} my-keys (keys v)]
+                   (if (seq my-keys)
+                     (recur (assoc
+                                my-vals
+                              (first my-keys) 
+                              ((fields/op (fields/field-merge-operation (first my-keys))) (vals1 (first my-keys)) (vals2 (first my-keys))))
+                            (rest my-keys))
+                     my-vals))]
+    (assoc cur-coll k new-vals)))
+
+;    (loop [x 10]
+;      (if (> x 0)
+;        (recur (- x 1))
+;        (println x)))))
+
+
+
+(defn format-find-duplicates
+  "Inteded to verify no duplicates during the ingestion of a single collections.
+The current stance is to merge the numbers if there is a duplicate.
+Duplicates seem to reflect when a player was traded during the season"
+  [collection elements]
+  (if (seq elements)
+    (let [k (first (keys (first elements)))
+          v (first (vals (first elements)))
+          v (into {} (for [[my-k my-v] v] [my-k 
+                                           (if (seq my-v)
+                                             my-v
+                                             "0")]))
+;          v (into {} (for [[my-k my-v] v] [my-k (Double. my-v)]))]
+;          v (into {} (for [[my-k my-v] v] [my-k (Integer. my-v)]))]
+          v (into {} (for [[my-k my-v] v] [my-k ((fields/field-type-conversion-op my-k) my-v)]))]
+
+      (if (contains? collection k)
+        (do
+
+
+          (loop [x (keys v)]
+            (if (seq x)
+              (do
+;                (println (first x))
+                (if-not (contains? fields/field-type-conversion-op (first x))
+                  (println (str (first x) " not contained")))
+                (recur (rest x)))))
+              
+
+
+          ;(println k)
+          ;(println v)
+          ;(println (collection k))
+          ;(println "**************************")
+;          (recur (merge-duplicates collection k v) (rest elements)))
+          (recur (assoc collection k v) (rest elements)))
+          (recur (assoc collection k v) (rest elements))))
+    collection)) 
+
+
+(defn initial-transform
+  "Takes the transform"
+  [file collection]
+  (let [x (slurp (str "resources/tsv-files/" file))
+        x (clojure.string/split x #"\n")
+        x (map #(clojure.string/split % #"\t") x)
+        keys (map #(clojure.string/lower-case %) (first x))
+        keys (map #(if-not (or (= % "team") (= % "player")) (str collection "-" %) %) keys)
+        keys (map #(keyword %) keys)
+        vals (rest x)
+        x (map #(zipmap keys %) vals)
+        x (map #(let [s (clojure.string/split (% :player)  #", ")
+                      player (first s)
+                      position (last s)
+                      team (% :team)
+                      lst (dissoc % :player :team)
+                      ]
+                  { {:player player :team team :position position} lst}) x)]
+    (format-find-duplicates {} x)))
+
+
+
+
+
+(def pass (initial-transform "passing.tsv" "passing"))
+;(def rush (initial-transform "rushing.tsv" "rushing"))
+;(def rec (initial-transform "receiving.tsv" "receiving"))
+;(def kr (initial-transform "kickoff.tsv" "kickoff"))
+;(def punt (initial-transform "punt.tsv" "punt"))
+;(def fg (initial-transform "fieldgoal.tsv" "fieldgoal"))
+;(def ep (initial-transform "extrapoint.tsv" "extrapoint"))
+
+;;(def grp [pass rush rec kr punt fg ep])

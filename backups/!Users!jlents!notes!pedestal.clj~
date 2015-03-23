@@ -1,0 +1,4 @@
+Pedestal is better than ring. Has all functionallity of ring and more.
+
+Ring is synchronous, Pedestal is asyncronous.
+

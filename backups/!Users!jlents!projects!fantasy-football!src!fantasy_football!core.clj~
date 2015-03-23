@@ -1,0 +1,6 @@
+(ns fantasy-football.core
+  (:require [fantasy-football.data :as data]))
+
+(defn -main
+  []
+  ((println data/pass)))

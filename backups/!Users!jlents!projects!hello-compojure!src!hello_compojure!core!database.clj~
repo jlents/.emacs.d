@@ -1,0 +1,13 @@
+(ns hello-monger.examples
+  (:require [monger.core :as mg]
+            [clojure.core.cache :refer :all]
+            [monger.cache :refer :all]))
+
+(defn generate-uuid
+  []
+  (str (java.util.UUID/randomUUID)))
+
+(let [conn  (mg/connect)
+      db    (mg/get-db conn "monger-test")
+      store (basic-monger-cache-factory db "myapp.caches")]
+  (comment "The store will now use the myapp.caches collection"))

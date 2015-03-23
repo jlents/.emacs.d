@@ -1,0 +1,22 @@
+(defproject football "0.1.0-SNAPSHOT"
+  :description "Built to manipulate football data"
+  :url "http://localhost:3000"
+  :license {:name "Eclipse Public License"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :repositories [["conjars" "http://conjars.org/repo/"]
+                 ["sonatype-oss-public" "https://oss.sonatype.org/content/groups/public/"]]
+  :dependencies [[org.clojure/clojure "1.6.0"]
+                 [compojure "1.2.0"]
+                 [com.novemberain/monger "2.0.0"]
+                 [org.mongodb/mongo-java-driver "2.12.3"]
+                 [org.clojure/core.cache "0.6.4"]
+                 [cheshire "5.3.1"]]
+  :plugins [[lein-ring "0.8.13"]]
+;;  :ring {:handler football.handler/app}
+  :jvm-opts ["-Xmx3g"]
+  :main paychecks.core
+  :repl-options {:init-ns user}
+  :deploy-branches ["master"]
+  :profiles {:dev {:resource-paths ["dev"]
+                   :dependencies [[org.clojure/tools.namespace "0.2.5"]]}
+             :uberjar {:aot :all}})
