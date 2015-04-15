@@ -1,7 +1,4 @@
-/auto-save-list
-/backups
-/backups//*
-places
-ac-comphist.dat
-smex-items
-ido.last
+*
+!themes/
+!el-files/
+!elpa/
