@@ -1,5 +1,0 @@
-(ns fantasy-footbal.players)
-
-(defn hey
-  []
-  (println "Hey Beck"))

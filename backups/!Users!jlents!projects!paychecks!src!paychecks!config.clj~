@@ -1,8 +1,0 @@
-(ns paychecks.config
-  (:gen-class))
-
-(def host "localhost")
-(def port 27017)
-(def db "monger-test")
-(def user "paychecks")
-(def pwd "paychecks")

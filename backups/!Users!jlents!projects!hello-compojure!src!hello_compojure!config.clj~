@@ -1,8 +1,0 @@
-(ns hello-compojure.core.config
-  (:gen-class))
-
-
-;; DataBase Configuration Parameters
-(def host "localhost")
-(def port 27017)
-(def db "data")
