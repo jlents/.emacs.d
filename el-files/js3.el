@@ -12012,7 +12012,3 @@ it marks the next defun after the ones already marked."
 ;;; js3-foot.el ends here
 
 ;;; js3.el ends here
-
-
-
-

@@ -1,4 +1,6 @@
-*
-!themes/
-!el-files/
-!elpa/
+ac-comphist.dat
+auto-save-list/
+backups/
+eshell/
+places
+smex-items
